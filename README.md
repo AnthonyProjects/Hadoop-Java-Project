@@ -17,6 +17,7 @@ Development Enviroment:
 
 * Windows 10 
 * Jupytier Notebook
+* Python 3
 
 Results:
 * Showed that the following can be accomplished to a dataset in spark:
@@ -27,7 +28,9 @@ Results:
 * Displayed a bar graph of houses grouped by SalePrice and Date
 * Calculated the total Square Feet of all the houses to include: "SqFtLot", "SqFtTotLiving", and "SqFtFinBasement"
 * Calculate total square feet of houses and then average of houses based on bathrooms, total living
-
+* find the max sales price and adj sale price
+* find the min sales price and adj sale price
+* Ability to filter out -1 from zipcodes, and 0 from basement square footage, and 0 from year renovated
 
 
 
