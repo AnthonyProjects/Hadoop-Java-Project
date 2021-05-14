@@ -5,9 +5,9 @@
 
 Description: 
 
-* The Purpose of this assignment is to apply the Hadoop knowledge that we learned to a data set, and peform various calculations
-  based on the framework of our choosing. The data set that i have chosen is, house prices. A series of graphs and metrics will 
-  be displayed to show the aggregate data. 
+* The Purpose of this assignment is to apply the Hadoop knowledge that we learned to a data set of our chosing. We will then peform various calculations
+  on one of the frameworks learned in class: Hive, Pig, and Spark. The data set that i have chosen for this project is, house prices, and the framework i have chosen
+  is spark. A series of graphs and metrics will be displayed to show the aggregate data. 
 
 Framework:
 
@@ -15,9 +15,10 @@ Framework:
 
 Development Enviroment:
 
-* Windows 10 
+* Windows 10 - 64 bit operating system
 * Jupytier Notebook
 * Python 3
+* Spark 
 
 Results:
 
@@ -26,7 +27,7 @@ Results:
 	* Looked over the house-prices csv file and other data in folder
 	* Three data set files: house-sales-full.csv, house-sales-simplified.csv, and house-sales-sample.csv can be imported into Juypter Notebook
 * Clean and Deal with any missing /invalid data:
-	* Ability to filter out -1 from zipcodes, and 0 from basement square footage, and 0 from year renovated.
+	* Ability to filter out -1 from zipcodes, and 0 from basement square footage, and 0 from year renovated
 * Do some analytical queries to show some interesting aggregations on your data
 	* Ability to groupBy SalePrice and count the number of houses with that sale price
 	* Ability to groupBy PropertyType and SalePrice, and Counted the number of houses with those types
