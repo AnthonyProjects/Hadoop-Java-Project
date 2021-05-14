@@ -20,17 +20,26 @@ Development Enviroment:
 * Python 3
 
 Results:
+
 * Showed that the following can be accomplished to a dataset in spark:
-* Three data set files: house-sales-full.csv, house-sales-simplified.csv, and house-sales-sample.csv can be imported into Juypter Notebook
-* Ability to groupBy SalePrice and count the number of houses with that sale price
-* Ability to groupBy PropertyType and SalePrice, and Counted the number of houses with those types
-* Joined the three .csv files together using the .join() command
-* Displayed a bar graph of houses grouped by SalePrice and Date
-* Calculated the total Square Feet of all the houses to include: "SqFtLot", "SqFtTotLiving", and "SqFtFinBasement"
-* Calculate total square feet of houses and then average of houses based on bathrooms, total living
-* find the max sales price and adj sale price
-* find the min sales price and adj sale price
-* Ability to filter out -1 from zipcodes, and 0 from basement square footage, and 0 from year renovated
+* Examined Data:
+	* Looked over the house-prices csv file and other data in folder
+	* Three data set files: house-sales-full.csv, house-sales-simplified.csv, and house-sales-sample.csv can be imported into Juypter Notebook
+* Clean and Deal with any missing /invalid data:
+	* Ability to filter out -1 from zipcodes, and 0 from basement square footage, and 0 from year renovated.
+* Do some analytical queries to show some interesting aggregations on your data
+	* Ability to groupBy SalePrice and count the number of houses with that sale price
+	* Ability to groupBy PropertyType and SalePrice, and Counted the number of houses with those types
+	* Joined the three .csv files together using the .join() command
+	* Calculated the total Square Feet of all the houses to include: "SqFtLot", "SqFtTotLiving", and "SqFtFinBasement"
+	* Calculate total square feet of houses and then average of houses based on bathrooms, total living
+	* find the max sales price and adj sale price
+	* find the min sales price and adj sale price
+* Generate a few "insights" on your data, supported if possible by tables or visualization:
+	* Displayed a bar graph of houses grouped by SalePrice and Date
+	* Displayed a bar graph to show: Total Square feet, average # of bathrooms, sqft in living, and basement of house
+	* Displayed several tables to show results of aggreagated data
+
 
 
 
